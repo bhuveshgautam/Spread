@@ -1,7 +1,7 @@
 n = int(input())
 for x in range(0, n):
     numPeople = int(input())
-    assert(numPeople >= 2),"Number of people must be more than 1"
+    assert(numPeople >= 2)
     
     A = input()
     AiList = A.split()
