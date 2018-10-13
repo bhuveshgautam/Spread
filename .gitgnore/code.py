@@ -8,10 +8,11 @@ for x in range(0, n):
     for i in range(0,len(AiList)) :
         AiList[i] = int(AiList[i])
     day = 0
-    people = 0
-    while people < numPeople:
-        for j in range(0, people + 2):
-            if j < len(AiList):
+    people = 1
+    while(people < numPeople):
+        for j in range(people):
+            if(j < len(AiList)):
                 people = people + AiList[j]
+        
         day = day + 1    
     print(day)
