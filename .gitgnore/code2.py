@@ -27,9 +27,9 @@ def isSemiPrime(x):
         return False
     
 def main():
-    counter = 0
     test = int(input())
     for x in range(0, test):
+        counter = 0
         n = int(input())
         for d1 in range(6, int(n / 2) + 1):
             d2 = n - d1
