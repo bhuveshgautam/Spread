@@ -1,2 +1,2 @@
-# Spread
-Code Spread
+# CodesForComp
+Codes
