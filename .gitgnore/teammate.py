@@ -4,8 +4,7 @@ for n in range(0, test):
     Si = input().split()
     
     for x in range(0, len(Si)):
-        Si[x] = int(Si[x])
-        
+        Si[x] = int(Si[x])  
     Si.sort(reverse = True)
     
     number = 1
