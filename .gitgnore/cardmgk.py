@@ -14,7 +14,7 @@ for n in range(test):
         
     if (isSorted(cards)):
         print("YES")
-        break
+        continue
     
     i = N - 2
     while(i >= 0):
