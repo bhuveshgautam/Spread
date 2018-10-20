@@ -16,11 +16,11 @@ for n in range(test):
         print("YES")
         continue
     
-    i = N - 2
+    i = N - 1
     while(i >= 0):
-        if (isSorted(cards[0:i + 1])):
-            cardsNew  = cards[i + 1:]
-            cardsNew.extend(cards[0: i + 1])
+        if (isSorted(cards[0:i])):
+            cardsNew  = cards[i:]
+            cardsNew.extend(cards[0: i])
             if(isSorted(cardsNew)):
                 break
         cardsNew = cards
